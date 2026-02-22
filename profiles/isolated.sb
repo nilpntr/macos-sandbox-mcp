@@ -1,0 +1,6 @@
+(version 1)
+(deny default)
+(allow process-fork)
+(allow process-exec)
+(allow file-read-data (regex "^/usr/lib"))
+(allow file-read-data (regex "^/System/Library"))
